@@ -1,6 +1,7 @@
 // import React from "react";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
+import Work from "./Components/Work";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
 
       {/* Hero / About Section */}
       <Hero />
+      <Work />
 
       {/*
         Future sections will go here:
