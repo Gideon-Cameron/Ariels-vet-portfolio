@@ -6,12 +6,13 @@ const Navbar: React.FC = () => {
       <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 font-manrope">
         {/* Left side */}
         <div className="flex items-center gap-10">
-          {/* Logo / Name */}
-          <a
-            href="#"
-            className="text-xl font-extrabold tracking-tight text-slate-900"
-          >
-            Josh
+          {/* Logo */}
+          <a href="#" className="flex items-center">
+            <img
+              src="/favicon.png"
+              alt="Josh logo"
+              className="h-9 w-9 rounded-md"
+            />
           </a>
 
           {/* Nav links */}
